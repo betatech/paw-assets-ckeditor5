@@ -8,6 +8,12 @@
             "email": "mlaxwong@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "paw\\assets\\ckeditor5\\": "src/"
@@ -15,6 +21,11 @@
     },
     "require": {
         "npm-asset/ckeditor--ckeditor5-build-classic": "^12.1",
-        "mlaxwong/paw": "^1.1"
+        "betatech/paw": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
     }
 }
